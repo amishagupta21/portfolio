@@ -1,0 +1,66 @@
+.container {
+    height: 100vh;
+    background-color: #0E141B;
+}
+
+.container span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: -0.4px;
+    color: #E5E5E5;
+    text-align: left;
+    margin-top: 20px;
+}
+.blogSection{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    margin-top: 20px;
+}
+.blogContainer {
+    height: 60%;
+    width: 25%;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color:#286DF1;
+}
+
+.blogImage{
+    height: 50%;
+    width: 100%;
+}
+.blogImage img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.blog{
+    cursor: pointer;
+}
+
+.blog h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+
+.date {
+    display: flex;
+    justify-content: space-around;
+}
+
+.date span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
