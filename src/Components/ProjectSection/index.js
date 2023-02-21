@@ -59,9 +59,9 @@ const ProjectSection = () => {
                 <span>Take a moment to view some of my latest projects. All the project below were built by me from the ground up.</span>
             </div>
             <div className={styles.projectContainer}>
-                {projects.map(project => {
+                {projects.map((project,index) => {
                     return (
-                        <div className={styles.project}>
+                        <div key={index} className={styles.project}>
                             <div className={styles.projectImage}>
                                  <img src={project.image} height={150} width={260} alt="project"/>
                             </div>

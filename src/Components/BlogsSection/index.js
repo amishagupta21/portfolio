@@ -23,9 +23,9 @@ const BlogSection = () => {
     <div id="blogs" className={styles.container}>
       <span>Blogs & Articles</span>
       <div className={styles.blogSection}>
-        {blogs.map(blog => {
+        {blogs.map((blog,index) => {
           return (
-            <div className={styles.blogContainer}>
+            <div key={index} className={styles.blogContainer}>
 
 <div className={styles.blogImage}>
                 <img src={blog.image} width="100%" height="100%" alt="blog" />

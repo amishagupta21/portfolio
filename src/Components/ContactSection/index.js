@@ -37,9 +37,9 @@ const ContactSection = () => {
         <span>I'm happy to answer any question you have or provide an estimate. Just send me a message in the form below with any questions you may have.</span>
       </div>
       <div className={styles.personalContactContainer}>
-        {contacts.map(contact => {
+        {contacts.map((contact,index)=> {
           return (
-            <div className={styles.contact}>
+            <div key={index} className={styles.contact}>
               <div className={styles.icon}>
                 <img src={contact.logo} height={30} width={30} alt="contacticon" />
               </div>
