@@ -19,7 +19,7 @@
 }
 
 .nameContainer h1 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -39,7 +39,7 @@
 }
 
 .informationContainer span {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -58,7 +58,7 @@
     border: none;
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     cursor: pointer;
 

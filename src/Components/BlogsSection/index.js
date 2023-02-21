@@ -23,15 +23,15 @@ const BlogSection = () => {
     <div id="blogs" className={styles.container}>
       <span>Blogs & Articles</span>
       <div className={styles.blogSection}>
-        {blogs.map((blog,index) => {
+        {blogs.map((blog, index) => {
           return (
             <div key={index} className={styles.blogContainer}>
 
-<div className={styles.blogImage}>
+              <div className={styles.blogImage}>
                 <img src={blog.image} width="100%" height="100%" alt="blog" />
               </div>
               <div className={styles.blog}>
-              <a href={blog.article} rel="noreferrer" target="_blank"><h1>{blog.name}</h1></a>
+                <a href={blog.article} rel="noreferrer" target="_blank"><h1>{blog.name}</h1></a>
                 <div className={styles.date}>
                   <span>{blog.topic}</span>
                   <span>{blog.date}</span>
