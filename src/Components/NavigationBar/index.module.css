@@ -14,7 +14,7 @@
 .logoContainer span {
     font-size: 24px;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-style: normal;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .navigationContainer span {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;

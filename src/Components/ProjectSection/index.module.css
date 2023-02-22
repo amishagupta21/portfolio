@@ -16,7 +16,7 @@
 
 .aboutSkill span:nth-child(1) {
     margin-top: 20%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 42px;
@@ -26,7 +26,7 @@
 }
 
 .aboutSkill span:nth-child(2) {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -68,7 +68,7 @@
 }
 
 .aboutProjectImage h1{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -78,7 +78,7 @@
 }
 
 .aboutProjectImage h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
