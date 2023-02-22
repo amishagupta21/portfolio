@@ -56,7 +56,7 @@ const ContactSection = () => {
         <div className={styles.socialMediaIcon}>
         <a href='https://www.linkedin.com/in/amisha-gupta-017212183/' rel="noreferrer" target="_blank"><img src={linkdin} height={30} width={30} alt="icon" /></a>
         <a href='https://github.com/amishagupta21' rel="noreferrer" target="_blank"><img src={github} height={30} width={30} alt="icon" /></a>
-        <a href='https://medium.com/@amishagupta67' rel="noreferrer" target="_blank"><img src={medium} height={30} width={30} alt="icon" /></a>
+        <a href='https://medium.com/@amishagupta672' rel="noreferrer" target="_blank"><img src={medium} height={30} width={30} alt="icon" /></a>
         <a href='https://www.instagram.com/amishagupta21/' rel="noreferrer" target="_blank"><img src={instagram} height={30} width={30} alt="icon" /></a>
         </div>
         <div className={styles.design}>
