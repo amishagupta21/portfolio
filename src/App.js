@@ -1,4 +1,3 @@
-import './App.css';
 import AboutSection from './Components/AboutSection';
 import BlogSection from './Components/BlogsSection';
 import ContactSection from './Components/ContactSection';
@@ -9,7 +8,7 @@ import SkillSection from './Components/SkillsSection';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <NavigationBar/>
       <HeroSection/>
       <AboutSection/>
@@ -17,7 +16,7 @@ function App() {
       <ProjectSection/>
       <BlogSection/>
       <ContactSection/>
-    </div>
+    </>
   );
 }
 

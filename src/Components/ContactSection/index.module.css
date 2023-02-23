@@ -1,61 +1,61 @@
-.container{
-    height: 100vh;
-    width: 100%;
-    background-color:#0E141B;
+.container {
+    background-color: #0E141B;
 }
-.contactContainer{
-    height: 40%;
+
+.contactContainer {
+    width: 60%;
     display: flex;
+    margin-bottom: 70px;
     flex-direction: column;
-    margin-left: 50px;
-    margin-right: 50px;
 }
-.contactContainer span:nth-child(1){
+
+.contactContainer span {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 42px;
     letter-spacing: -0.4px;
     color: #E5E5E5;
-    text-align: center;
     margin-top: 50px;
+    padding-left: 70px;
 }
-.contactContainer span:nth-child(2){
+
+.contactContainer p {
     padding-top: 10px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 26px;
-    text-align: center;
-    margin-left: 40px;
-    margin-right: 40px;
-    
+    padding-left: 70px;
     color: #FFFFFF;
 }
 
-.personalContactContainer{
-    height: 50%;
+.personalContactContainer {
+    height: 230px;
     display: flex;
-    /* background-color: aqua; */
 }
-.contact{
+
+.contact {
     width: 33.33%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
-    
+
 }
-.contact:hover{
+
+.contact:hover {
     opacity: 0.5;
     cursor: pointer;
 }
-.contactfield{
+
+.contactfield {
     display: flex;
     flex-direction: column;
 }
-.contactfield span:nth-child(1){
+
+.contactfield span:nth-child(1) {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -64,28 +64,33 @@
     text-align: center;
     color: #FFFFFF;
 }
-.contactfield span:nth-child(2){
+
+.contactfield span:nth-child(2) {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
+    text-align: center;
+
 }
-.contactfield span:nth-child(3){
+
+.contactfield span:nth-child(3) {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 26px;
-    color: #1890ff;
 }
-.foooterContainer{
-    height: 10%;
-    background-color:#f2f2f2;
+
+.foooterContainer {
+    height: 50px;
+    background-color: #f2f2f2;
     display: flex;
 }
-.socialMediaIcon{
+
+.socialMediaIcon {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -93,20 +98,22 @@
     align-items: center;
     cursor: pointer;
 }
-.design{
+
+.design {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.design span{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
+
+.design span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }

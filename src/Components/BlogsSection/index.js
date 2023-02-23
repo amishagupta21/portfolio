@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./index.module.css"
-import map from "../../assests/images/map.png"
+import map from "../../assests/images/mfr2.webp"
 import notion from "../../assests/images/notionimg.png"
 
 const BlogSection = () => {
@@ -21,12 +21,13 @@ const BlogSection = () => {
   ]
   return (
     <div id="blogs" className={styles.container}>
+      <div className={styles.articleHeader}>
       <span>Blogs & Articles</span>
+      </div>
       <div className={styles.blogSection}>
         {blogs.map((blog, index) => {
           return (
             <div key={index} className={styles.blogContainer}>
-
               <div className={styles.blogImage}>
                 <img src={blog.image} width="100%" height="100%" alt="blog" />
               </div>

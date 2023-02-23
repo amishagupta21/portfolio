@@ -69,7 +69,7 @@ const SkillSection = () => {
         <div id="skills" className={styles.container}>
             <div className={styles.skillsContainer}>
                 <span>My Tech Stack</span>
-                <span> Technologies I’ve been working with recently</span>
+                <span>Technologies I’ve been working with recently</span>
             </div>
             <div className={styles.showedSkills}>
                 {skills.map((skill,index) => {
