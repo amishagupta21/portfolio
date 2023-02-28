@@ -3,7 +3,6 @@
 }
 
 .contactContainer {
-    width: 60%;
     display: flex;
     margin-bottom: 70px;
     flex-direction: column;
@@ -24,8 +23,8 @@
     padding-top: 10px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 20px;
     line-height: 26px;
     padding-left: 70px;
     color: #FFFFFF;
@@ -69,7 +68,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
     text-align: center;
@@ -80,7 +79,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 26px;
 }
 
@@ -100,17 +99,17 @@
 }
 
 .design {
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 200px;
 }
 
 .design span {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

@@ -11,7 +11,8 @@ const HeroSection = () => {
             I'm Amisha Gupta
           </h1>
           <span>
-            I am a programmer and love to write code daily. I am excited by solving challenges, bringing my ideas to life with code and looking for ways to help others make a difference.
+            I am a programmer and love to write code daily. <br/>
+            I am excited by solving challenges, bringing my ideas to life with<br/> code and looking for ways to help others make a difference.
           </span>
         <div className={styles.cta}>
           <button>Hire me</button>

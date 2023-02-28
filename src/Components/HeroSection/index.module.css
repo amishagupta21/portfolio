@@ -1,4 +1,5 @@
 .container {
+    height: 100vh;
     display: flex;
     background-color: #0E141B;
 }
@@ -11,11 +12,11 @@
 }
 
 
-.container h1 {
+.aboutContainer h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 36px;
     background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -26,11 +27,11 @@
 }
 
 
-.container span {
+.aboutContainer span {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
 }
 
@@ -38,14 +39,14 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .cta button {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     font-family: 'Poppins';
     font-style: normal;

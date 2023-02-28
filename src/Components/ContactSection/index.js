@@ -34,7 +34,7 @@ const ContactSection = () => {
     <div id="contact" className={styles.container}>
       <div className={styles.contactContainer}>
         <span>Contact Me</span>
-        <p>I'm happy to answer any question you have or provide an estimate. Just send me a message in the form below with any questions you may have.</p>
+        <p>I'm happy to answer any question you have or provide an estimate. <br/>Just send me a message in the form below with any questions you may have.</p>
       </div>
       <div className={styles.personalContactContainer}>
         {contacts.map((contact,index)=> {

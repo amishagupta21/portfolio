@@ -16,7 +16,7 @@ const ProjectSection = () => {
             video: "https://lnkd.in/dysjPu-C",
             name: "Taskify : Task Application",
             about: "Create and manage your tasks in just one place.",
-            tech: "ReactJs, JavaScript, HTML/CSS, Redux, React-Router, Redux-Persists"
+            tech: "ReactJs, JavaScript, HTML/CSS, Redux, React-Router,Persists"
         },
         {
             image: youtube,

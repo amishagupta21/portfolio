@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./index.module.css"
 import map from "../../assests/images/mfr2.webp"
 import notion from "../../assests/images/notionimg.png"
+import script from "../../assests/images/script.png"
 
 const BlogSection = () => {
   const blogs = [{
@@ -17,6 +18,13 @@ const BlogSection = () => {
     image: notion,
     topic: "Notion",
     date: "February 8, 2023"
+  },
+  {
+    name: "The concept for writing a script tag ",
+    article: "https://medium.com/@amishagupta672/understand-the-concept-for-writing-a-script-tag-for-javascript-in-the-head-section-and-the-body-4e5ef56c07f2",
+    image: script,
+    topic: "JAVASCRIPT",
+    date: "February 28, 2023"
   },
   ]
   return (
