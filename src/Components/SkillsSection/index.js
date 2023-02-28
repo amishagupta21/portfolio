@@ -67,21 +67,19 @@ const SkillSection = () => {
     ]
     return (
         <div id="skills" className={styles.container}>
-            <div className={styles.skillsContainer}>
-                <span>My Tech Stack</span>
-                <span>Technologies I’ve been working with recently</span>
-            </div>
-            <div className={styles.showedSkills}>
-                {skills.map((skill,index) => {
-                    return (
-                        <div key={index} className={styles.skills}>
-                            <span>{skill.name}</span>
-                            <img src={skill.image} height={40} width={40} alt="skill"/>
-                        </div>
-                    )
-                })}
-            </div>
+        <h1>My Tech Stack</h1>
+        <p>Technologies I’ve been working with recently</p>
+        <div className={styles.skills}>
+            {skills.map((skill,index) => {
+                return (
+                    <div key={index} className={styles.skill}>
+                        <span>{skill.name}</span>
+                        <img src={skill.image} height={40} width={40} alt={skill.name}/>
+                    </div>
+                )
+            })}
         </div>
+    </div>
     )
 }
 

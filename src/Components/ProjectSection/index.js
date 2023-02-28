@@ -54,36 +54,31 @@ const ProjectSection = () => {
     ]
     return (
         <div id="projects" className={styles.container}>
-            <h1 className={styles.title}>My Work & Projects</h1>
-            <p className={styles.description}>Take a moment to view some of my latest projects. All the project below were built by me from the ground up.</p>
-            <div className={styles.projectContainer}>
-                {projects.map((project, index) => {
-                    return (
-                        <div key={index} className={styles.project}>
-                            <div className={styles.projectImage}>
-                                <img src={project.image} height={150} width={260} alt="project" />
+        <h1 className={styles.title}>My Work & Projects</h1>
+        <p className={styles.description}>Take a moment to view some of my latest projects. All the project below were built by me from the ground up.</p>
+        <div className={styles.projects}>
+            {projects.map((project, index) => {
+                return (
+                    <div key={index} className={styles.project}>
+                        <img className={styles.projectImage} src={project.image} alt="project" />
+                        <h1>{project.name}</h1>
+                        <h2><span>Tech Stack: </span>{project.tech}</h2>
+                        <div className={styles.links}>
+                            <div className={styles.link}>
+                                <img src={live} height={15} width={15} alt="liveicon" />
+                                <a href={project.video} rel="noreferrer" target="_blank">Live Preview</a>
                             </div>
-
-                            <div className={styles.aboutProjectImage}>
-                                <h1>{project.name}</h1>
-                                <h2><span>Tech Stack: </span>{project.tech}</h2>
-                            </div>
-                            <div className={styles.projectLink}>
-                                <div className={styles.liveLink}>
-                                    <img src={live} height={15} width={15} alt="liveicon" />
-                                    <a href={project.video} rel="noreferrer" target="_blank"><span>Live Preview</span></a>
-                                </div>
-                                <div className={styles.githubLink}>
-                                    <img src={git} height={15} width={15} alt="giticon" />
-                                    <a href={project.github} rel="noreferrer" target="_blank"><span>View Code</span></a>
-                                </div>
+                            <div className={styles.link}>
+                                <img src={git} height={15} width={15} alt="giticon" />
+                                <a href={project.github} rel="noreferrer" target="_blank">View Code</a>
                             </div>
                         </div>
-                    )
-                })}
+                    </div>
+                )
+            })}
 
-            </div>
         </div>
+    </div>
     )
 }
 

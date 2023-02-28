@@ -29,28 +29,36 @@ const BlogSection = () => {
   ]
   return (
     <div id="blogs" className={styles.container}>
-      <div className={styles.articleHeader}>
-      <span>Blogs & Articles</span>
-      </div>
-      <div className={styles.blogSection}>
-        {blogs.map((blog, index) => {
-          return (
-            <div key={index} className={styles.blogContainer}>
-              <div className={styles.blogImage}>
-                <img src={blog.image} width="100%" height="100%" alt="blog" />
-              </div>
-              <div className={styles.blog}>
-                <a href={blog.article} rel="noreferrer" target="_blank"><h1>{blog.name}</h1></a>
-                <div className={styles.date}>
-                  <span>{blog.topic}</span>
-                  <span>{blog.date}</span>
-                </div>
+    <span className={styles.title}>Blogs & Articles</span>
+    <div className={styles.blogs}>
+      {blogs.map((blog, index) => {
+        return (
+          <a
+            href={blog.article}
+            rel="noreferrer"
+            target="_blank"
+            key={index}
+            className={styles.blogContainer}
+          >
+            <img
+              className={styles.blogImage}
+              src={blog.image}
+              width="100%"
+              height="100%"
+              alt="blog"
+            />
+            <div className={styles.blog}>
+              <h1>{blog.name}</h1>
+              <div className={styles.date}>
+                <span>{blog.topic}</span>
+                <span>{blog.date}</span>
               </div>
             </div>
-          )
-        })}
-      </div>
+          </a>
+        );
+      })}
     </div>
+  </div>
   )
 }
 

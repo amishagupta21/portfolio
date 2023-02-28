@@ -1,11 +1,9 @@
 .container {
     background-color:#0E141B;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 15% 10% 0px 10%;
 }
 
 .title {
-    padding-top: 50px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -26,11 +24,10 @@
 
 }
 
-.projectContainer {
+.projects {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-    padding-left: 50px;
 }
 
 .project {
@@ -42,21 +39,13 @@
     height: 350px;
 }
 
-.projectImage img {
-    height: 180px;
-    width: 350px;
+.projectImage {
+    height: 150px;
+    width: 260px;
     border-radius: 20px 20px 0px 0px;
 }
 
-.aboutProjectImage {
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding: 10px;
-}
-
-.aboutProjectImage h1 {
+.project h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -64,37 +53,54 @@
     line-height: 24px;
     text-align: left;
     color: #000000;
+    padding: 10px;
 }
 
-.aboutProjectImage h2 {
+.project h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #42446E;
+    padding: 10px;
 }
 
 .aboutProjectImage h2 span {
     font-weight: 600;
 }
 
-.projectLink {
+.links {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     color: #1890ff;
     font-weight: 700;
     font-size: 18px;
-    margin-top: 15px;
 }
 
-.liveLink {
+.link {
     display: flex;
-    gap: 5px;
-
-}
-
-.githubLink {
-    display: flex;
+    align-items: center;
     gap: 5px;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .title {
+        font-size: 32px;
+    }
+    .description {
+        font-size: 16px;
+    }
+
+    .projects {
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       flex-wrap: nowrap;
+    }
+    .projectImage {
+        width: 100%;
+    }
+  }

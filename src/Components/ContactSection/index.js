@@ -32,37 +32,64 @@ const ContactSection = () => {
   ]
   return (
     <div id="contact" className={styles.container}>
-      <div className={styles.contactContainer}>
-        <span>Contact Me</span>
-        <p>I'm happy to answer any question you have or provide an estimate. <br/>Just send me a message in the form below with any questions you may have.</p>
-      </div>
-      <div className={styles.personalContactContainer}>
-        {contacts.map((contact,index)=> {
+      <span className={styles.title}>Contact Me</span>
+      <p className={styles.description}>
+        I'm happy to answer any question you have or provide an estimate.
+        Just send me a message in the form below with any questions you may
+        have.
+      </p>
+      <div className={styles.contactInfo}>
+        {contacts.map((contact, index) => {
           return (
             <div key={index} className={styles.contact}>
-              <div className={styles.icon}>
-                <img src={contact.logo} height={30} width={30} alt="contacticon" />
-              </div>
-              <div className={styles.contactfield}>
+                <img
+                  src={contact.logo}
+                  height={30}
+                  width={30}
+                  alt="contacticon"
+                />
                 <span>{contact.name}</span>
                 <span>{contact.about}</span>
-                <a href={contact.map} rel="noreferrer" target="_blank"><span>{contact.contact}</span></a>
-              </div>
+                <a href={contact.map} rel="noreferrer" target="_blank">
+                  <span>{contact.contact}</span>
+                </a>
             </div>
-          )
+          );
         })}
       </div>
-      <div className={styles.foooterContainer}>
+      <footer className={styles.footer}>
         <div className={styles.socialMediaIcon}>
-        <a href='https://www.linkedin.com/in/amisha-gupta-017212183/' rel="noreferrer" target="_blank"><img src={linkdin} height={30} width={30} alt="icon" /></a>
-        <a href='https://github.com/amishagupta21' rel="noreferrer" target="_blank"><img src={github} height={30} width={30} alt="icon" /></a>
-        <a href='https://medium.com/@amishagupta672' rel="noreferrer" target="_blank"><img src={medium} height={30} width={30} alt="icon" /></a>
-        <a href='https://www.instagram.com/amishagupta21/' rel="noreferrer" target="_blank"><img src={instagram} height={30} width={30} alt="icon" /></a>
+          <a
+            href="https://www.linkedin.com/in/amisha-gupta-017212183/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src={linkdin} height={30} width={30} alt="icon" />
+          </a>
+          <a
+            href="https://github.com/amishagupta21"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src={github} height={30} width={30} alt="icon" />
+          </a>
+          <a
+            href="https://medium.com/@amishagupta672"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src={medium} height={30} width={30} alt="icon" />
+          </a>
+          <a
+            href="https://www.instagram.com/amishagupta21/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src={instagram} height={30} width={30} alt="icon" />
+          </a>
         </div>
-        <div className={styles.design}>
-          <span>© 2022 Developed By AmishaGupta</span>
-        </div>
-      </div>
+        <span className={styles.developedBy}>© 2022 Developed By AmishaGupta</span>
+      </footer>
     </div>
   )
 }

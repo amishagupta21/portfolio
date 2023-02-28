@@ -1,20 +1,50 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from "./index.module.css"
-
+import hamburgerIcon from "../../assests/icons/hamburger.png"
 const NavigationBar = () => {
-    return (
-        <div className={styles.container}>
-            <div className={styles.logoContainer}><span>Amisha</span><span>Gupta</span></div>
-            <nav className={styles.navigationContainer}>
-            <a href="#home"><span>HOME</span></a>
-            <a href="#about"><span>ABOUT</span></a>
-            <a href="#skills"><span>SKILLS</span></a>
-            <a href="#projects"><span>PROJECTS</span></a>
-            <a href="#blogs"><span>BLOGS</span></a>
-            <a href="#contact"><span>CONTACT</span></a>
+    
+        const [openNavOptions, setOpenNavOptions] = useState(false);
+
+        const optionToggler = () => setOpenNavOptions(!openNavOptions);
+      
+        const options = ["home", "about", "skills", "projects", "blogs", "contact"];
+      
+        return (
+          <header className={styles.container}>
+            <h1 className={styles.logo}>
+              Amisha<span>Gupta</span>
+            </h1>
+            <nav className={styles.nav}>
+              {options.map((option, index) => {
+                return (
+                  <a key={index} href={`#${option}`}>
+                    <span>{option}</span>
+                  </a>
+                );
+              })}
             </nav>
-        </div>
-    )
-}
+            <img
+              onClick={optionToggler}
+              className={styles.hamburger}
+              src={hamburgerIcon}
+              alt="hamburger Icon"
+            />
+            {openNavOptions && (
+              <div className={styles.dropdownOptions}>
+                <nav className={styles.dropdownNav}>
+                  {options.map((option, index) => {
+                    return (
+                      <a key={index} onClick={optionToggler} href={`#${option}`}>
+                        <span>{option}</span>
+                      </a>
+                    );
+                  })}
+                </nav>
+              </div>
+            )}
+          </header>
+        );
+      };
+
 
 export default NavigationBar

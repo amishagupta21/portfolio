@@ -1,110 +1,113 @@
 .container {
-    height: 100vh;
     width: 100%;
-    background-color: #0E141B;
-    display: flex;
-    padding-left: 70px;
-    padding-right: 70px;
-    /* background-color: green; */
-}
-
-.about {
-    width: 60%;
-}
-
-.about span {
-    font-family: 'Poppins';
+    background-color: #0e141b;
+    padding: 15% 10% 0px 10%;
+  }
+  
+  .title {
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
     font-size: 42px;
     letter-spacing: -0.4px;
-    color: #E5E5E5;
+    color: #e5e5e5;
     text-align: left;
-    margin-top: 20%;
-}
-
-.about p {
+  }
+  
+  .description {
     padding-top: 10px;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
     text-align: left;
-    color: #FFFFFF;
-}
-
-.experience {
-    margin-top: 100px;
-}
-
-.experience span {
-    font-family: 'Poppins';
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  .experience {
+    margin-top: 50px;
+  }
+  
+  .experience span {
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
     font-size: 42px;
     line-height: 52px;
     letter-spacing: -0.4px;
-    color: #E5E5E5;
-}
-
-.companyInfo {
+    color: #e5e5e5;
+  }
+  
+  .companyInfo {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     margin-top: 20px;
-}
-
-
-.workExperience {
-    background-color: #286DF1;
+  }
+  
+  .company {
+    background-color: #286df1;
     border-radius: 15px;
-}
-
-.companyName {
+  }
+  
+  .companyName {
+    display: block;
     padding: 15px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     text-align: left;
     background-color: white;
-}
-
-.companyName span {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 1px;
-    color: #0E141B;
-    
-}
-
-.role span {
-    font-family: 'Poppins';
+    color: #0e141b;
+  }
+  
+  .role span {
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 1px;
     color: whitesmoke;
-}
-
-.role {
+  }
+  
+  .role {
     display: flex;
     flex-direction: column;
     text-align: left;
     padding: 30px;
     height: 200px;
-}
-
-.role h1 {
-    font-family: 'Poppins';
+  }
+  
+  .role h1 {
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 1px;
     color: whitesmoke;
-}
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .companyInfo {
+      flex-direction: column;
+    }
+  
+    .title {
+      font-size: 32px;
+    }
+  
+    .description {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
