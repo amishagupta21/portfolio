@@ -1,113 +1,118 @@
 .container {
-    width: 100%;
-    background-color: #0e141b;
-    padding: 15% 10% 0px 10%;
+  width: 100%;
+  background-color: #0e141b;
+  padding: 15% 10% 0px 10%;
+}
+
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: -0.4px;
+  color: #e5e5e5;
+  text-align: left;
+}
+
+.description {
+  padding-top: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.experience {
+  margin-top: 50px;
+}
+
+.experience span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.4px;
+  color: #e5e5e5;
+}
+
+.companyInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.company {
+  background-color: #286df1;
+  border-radius: 15px;
+}
+
+.companyName {
+  display: block;
+  padding: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  text-align: left;
+  background-color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #0e141b;
+}
+
+.role span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: whitesmoke;
+}
+
+.role {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 30px;
+  width: 100%; /* Take full width on small screens */
+}
+
+.role h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    padding: 10% 5% 0 5%;
   }
-  
-  .title {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    letter-spacing: -0.4px;
-    color: #e5e5e5;
-    text-align: left;
-  }
-  
-  .description {
-    padding-top: 10px;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 30px;
-  }
-  
-  .experience {
-    margin-top: 50px;
-  }
-  
-  .experience span {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 52px;
-    letter-spacing: -0.4px;
-    color: #e5e5e5;
-  }
-  
+
   .companyInfo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    margin-top: 20px;
-  }
-  
-  .company {
-    background-color: #286df1;
-    border-radius: 15px;
-  }
-  
-  .companyName {
-    display: block;
-    padding: 15px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    text-align: left;
-    background-color: white;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 1px;
-    color: #0e141b;
-  }
-  
-  .role span {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 1px;
-    color: whitesmoke;
-  }
-  
-  .role {
-    display: flex;
     flex-direction: column;
-    text-align: left;
-    padding: 30px;
-    height: 200px;
+    gap: 20px;
   }
-  
-  .role h1 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 1px;
-    color: whitesmoke;
+
+  .title {
+    font-size: 32px;
   }
-  
-  @media only screen and (max-width: 800px) {
-    .companyInfo {
-      flex-direction: column;
-    }
-  
-    .title {
-      font-size: 32px;
-    }
-  
-    .description {
-      font-size: 18px;
-      line-height: 24px;
-    }
+
+  .description {
+    font-size: 18px;
+    line-height: 24px;
   }
+}

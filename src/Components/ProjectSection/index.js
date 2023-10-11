@@ -7,9 +7,27 @@ import taskify from "../../assests/images/taskifyportfolio.PNG"
 import weather from "../../assests/images/weather.PNG"
 import spotify from "../../assests/images/spotifyimg.PNG"
 import finder from "../../assests/images/finder.PNG"
+import unikaksha from "../../assests/images/unikaksha.PNG"
+import adminpanel from "../../assests/images/adminpanel.jpeg"
 
 const ProjectSection = () => {
     const projects = [
+        {
+            image:unikaksha ,
+            github: "https://github.com/amishagupta21",
+            video: "https://app.unikaksha.com/",
+            name: "Unikaksha : Ed-Tech Platform",
+            about: "Student Registration for different courses platform with stepper process with Authentication.",
+            tech: "ReactJs, JavaScript, HTML/CSS, Redux, React-Router"
+        },
+        {
+            image: adminpanel,
+            github: "https://github.com/amishagupta21",
+            video: "https://admin.unikaksha.com",
+            name: "Unikaksha : Admin Panel",
+            about: "Create and manage your tasks in just one place.",
+            tech: "ReactJs, JavaScript, HTML/CSS, Redux, React-Router,Redux Saga"
+        },
         {
             image: taskify,
             github: "https://github.com/amishagupta21/weather-app",
