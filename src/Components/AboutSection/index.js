@@ -6,31 +6,43 @@ const AboutSection = () => {
     <div id="about" className={styles.container}>
       <span className={styles.title}>About Me</span>
       <p className={styles.description}>I transform documented ideas into functioning scalable tech products. Passionate about using the latest technology. I keep things simple, clean, and efficient. I love to trek into the mountains and explore new places.</p>
-          
+
       <span className={styles.title}>Work Experience</span>
       <div className={styles.companyInfo}>
-      <div className={styles.company}>
+        <div className={styles.company}>
+          <span className={styles.companyName}>
+            Genihub Digital Ventures LLP
+          </span>
+
+          <div className={styles.role}>
+            <h1><span>Role: </span>Software Developer</h1>
+            <h1><span>Work: </span>Single handed let the development of
+              website. Server - side worked on Models , Routes and
+              controllers. Device specific and contribution in Mobile app.</h1>
+          </div>
+        </div>
+        <div className={styles.company}>
           <span className={styles.companyName}>
             CODESHASTRA
           </span>
 
           <div className={styles.role}>
             <h1><span>Role: </span>Tech Developer</h1>
-            <h1><span>Work: </span>Build web apps using React, Redux, API, react-router. Worked on Admin Panel with Redux Saga,Firebase for Authentication. Designed Pixel-clear UI.</h1>
+            <h1><span>Work: </span>Build web apps using React, API, react-router. Worked on Admin Panel with Redux ,Firebase for Authentication. Designed Pixel-clear UI.</h1>
           </div>
         </div>
         <div className={styles.company}>
           <span className={styles.companyName}>
-            PCDS InfoTech - IT solutions company
+            PCDS InfoTech 
           </span>
 
           <div className={styles.role}>
             <h1><span>Role: </span>Frontend Developer</h1>
-            <h1><span>Work: </span>Build web apps using React, Redux, API, react-router. Worked with Function Component. Designed Pixel-clear UI from scratch.</h1>
+            <h1><span>Work: </span>Build web apps using React, Redux, API, react-router. Worked with Function Component. Designed Pixel-clear UI from scratch.Scalable Code .</h1>
           </div>
         </div>
 
-        <div className={styles.company}>
+        {/* <div className={styles.company}>
           <span className={styles.companyName}>
             RNBOLD - IT solutions company
           </span>
@@ -38,7 +50,7 @@ const AboutSection = () => {
             <h1><span>Role: </span>Junior PHP Developer</h1>
             <h1><span>Work: </span>Handle complete frontend development. Tested functionality of the application code on multiple web browsers. Worked on PhpMyAdmin.</h1>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

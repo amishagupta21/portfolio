@@ -9,9 +9,28 @@ import spotify from "../../assests/images/spotifyimg.PNG"
 import finder from "../../assests/images/finder.PNG"
 import unikaksha from "../../assests/images/unikaksha.PNG"
 import adminpanel from "../../assests/images/adminpanel.jpeg"
+import digitalCoffee from "../../assests/images/digitalcoffee.PNG"
+import chat from "../../assests/images/chat1.PNG"
+
 
 const ProjectSection = () => {
     const projects = [
+        {
+            image:chat,
+            github: "https://github.com/amishagupta21/Chat-application",
+            video: "https://chatterapplication1.netlify.app/login",
+            name: "Real-time chat application ",
+            about: "Online chat is any kind of communication over the Internet that offers a real-time transmission of text messages from sender to receiver",
+            tech: "ReactJs, JavaScript, HTML/CSS, Firebase, React-Router"
+        },
+        {
+            image: digitalCoffee,
+            github: "https://github.com/amishagupta21/DigitalCoffee",
+            video: "https://meetwithcoffee.netlify.app/lobby.html",
+            name: "Digital Coffee : Talk and Enjoy",
+            about: "peer-to-peer video call application with lobby where we can join the room and invite another user with some kind of room id into our room",
+            tech: "WebRTC, ReactJs, JavaScript, HTML/CSS, Redux, React-Router,Redux Saga"
+        },
         {
             image:unikaksha ,
             github: "https://github.com/amishagupta21",

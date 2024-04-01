@@ -27,7 +27,8 @@
 .projects {
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 30px;
+    margin-left: 100px;
 }
 
 .project {
@@ -99,6 +100,7 @@
        justify-content: center;
        flex-direction: column;
        flex-wrap: nowrap;
+       margin-left: 0px;
     }
     .projectImage {
         width: 100%;
