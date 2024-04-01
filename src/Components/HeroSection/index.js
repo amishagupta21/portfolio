@@ -8,7 +8,7 @@ const HeroSection = () => {
     <div id="home" className={styles.container}>
     <div className={styles.about}>
         <h1>Hi <img src={hello} height={30} width={30} alt="hello" />,<br />
-          I'm a Frontend developer
+          I'm a Full Stack Developer
         </h1>
         <p>
           I am a programmer and love to write code daily.
