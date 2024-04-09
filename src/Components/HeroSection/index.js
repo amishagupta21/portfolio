@@ -16,7 +16,7 @@ const HeroSection = () => {
         </p>
       <div className={styles.cta}>
         <button>Hire me</button>
-        <button><a href='https://drive.google.com/file/d/1Ww8o3XgFsLETdb58Vn0xIPv50IXfDb1i/view?usp=drive_link' rel="noreferrer" target="_blank">Download CV</a></button>
+        <button><a href='https://drive.google.com/file/d/1KdBh_IERjWD7mdgu-A-FrXEberKS3WWR/view?usp=drive_link' rel="noreferrer" target="_blank">Download CV</a></button>
       </div>
     </div>
     <div className={styles.imageContainer}>
